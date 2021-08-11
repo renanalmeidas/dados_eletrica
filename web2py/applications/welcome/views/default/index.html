@@ -1,30 +1,26 @@
 {{extend 'layout.html'}}
 
-<div onload="draw();">
-    <canvas id="tutorial" width="1885" height="800"></canvas>
+<body class="center" onload="draw();">
     <canvas id="teste" width="150" height="150"></canvas>
-</div>
+</body>
 
-<script>
-function draw(){
-        var canvas = document.getElementById('tutorial');
-        if (canvas.getContext){
-          var ctx = canvas.getContext('2d');
-        }
+
+
+<script type="application/javascript">
+    function draw() {
         var canvas = document.getElementById('teste');
-        if (canvas.getContext){
-            var ctx = canvas.getContext('2d');
+        if (canvas.getContext) {
+            var ctx = canvas.getContext("2d");
+
+            ctx.fillRect(0, 0, 150, 150);
         }
-      }
+    }
 </script>
 
 
 
-
-
-
 <style>
-    canvas { border: 1px solid black; }
+    canvas { border: 1px solid blue; }
 </style>
 
 
