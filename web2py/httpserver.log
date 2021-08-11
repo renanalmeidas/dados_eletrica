@@ -666,6 +666,8 @@
 127.0.0.1, 2021-08-11 14:05:11, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
 127.0.0.1, 2021-08-11 14:05:52, GET, /welcome/default/index, HTTP/1.1, 200, 0.007978
 127.0.0.1, 2021-08-11 14:05:52, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2021-08-11 14:06:53, GET, /welcome/default/index, HTTP/1.1, 200, 0.006981
+127.0.0.1, 2021-08-11 14:06:53, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
 127.0.0.1, 2021-08-11 14:14:34, GET, /welcome, HTTP/1.1, 200, 0.008981
 127.0.0.1, 2021-08-11 14:14:34, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
 127.0.0.1, 2021-08-11 14:19:17, GET, /welcome, HTTP/1.1, 200, 0.007000
@@ -736,3 +738,14 @@
 127.0.0.1, 2021-08-11 14:22:30, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
 127.0.0.1, 2021-08-11 14:22:30, GET, /welcome, HTTP/1.1, 200, 0.007972
 127.0.0.1, 2021-08-11 14:22:30, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/default/index, HTTP/1.1, 200, 0.009004
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/css/bootstrap.min.css, HTTP/1.1, 304, 0.000996
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/css/web2py-bootstrap4.css, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/css/calendar.css, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/modernizr-2.8.3.min.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/web2py.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/jquery.js, HTTP/1.1, 304, 0.000998
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/calendar.js, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/bootstrap.bundle.min.js, HTTP/1.1, 304, 0.000997
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/web2py-bootstrap4.js, HTTP/1.1, 304, 0.000000
+127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000623
