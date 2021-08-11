@@ -1,5 +1,31 @@
 {{extend 'layout.html'}}
 
+<div onload="draw();">
+    <canvas id="tutorial" width="1885" height="800"></canvas>
+    <canvas id="teste" width="150" height="150"></canvas>
+</div>
+
+<script>
+function draw(){
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext){
+          var ctx = canvas.getContext('2d');
+        }
+        var canvas = document.getElementById('teste');
+        if (canvas.getContext){
+            var ctx = canvas.getContext('2d');
+        }
+      }
+</script>
+
+
+
+
+
+
+<style>
+    canvas { border: 1px solid black; }
+</style>
 
 
 
