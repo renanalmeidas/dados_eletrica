@@ -1,21 +1,32 @@
 {{extend 'layout.html'}}
 
-<body class="center" onload="draw();">
-    <canvas id="teste" width="150" height="300"></canvas>
+<body onload="draw();">
+    <div>
+        <canvas id="id1a" width="150" height="50"></canvas>
+    </div>
+    <div>
+        <canvas id="id1b" width="150" height="50"></canvas>
+    </div>
+
+
 </body>
 
 
 
 <script type="application/javascript">
     function draw() {
-        var canvas = document.getElementById('teste');
-        if (canvas.getContext) {
-            var ctx = canvas.getContext("2d");
+        var id1a = document.getElementById('id1a');
+        if (id1a.getContext) {
+            var id1a = id1a.getContext("2d");
+            id1a.fillStyle = "rgba(0, 0, 200, 0.5)";
+            id1a.fillRect(0, 0, 150, 50);
+        }
 
-            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-            ctx.fillRect(0, 0, 150, 150);
-            ctx.fillStyle = "rgba(255, 0, 200, 0.5)";
-            ctx.fillRect(0, 50, 150, 150);
+        var id1b = document.getElementById('id1b');
+        if (id1b.getContext) {
+            var id1b = id1b.getContext("2d");
+            id1b.fillStyle = "rgba(155, 0, 200, 0.5)";
+            id1b.fillRect(0, 0, 150, 50);
         }
     }
 </script>
@@ -23,7 +34,7 @@
 
 
 <style>
-    canvas { border: 1px solid blue; }
+    canvas { }
 </style>
 
 
