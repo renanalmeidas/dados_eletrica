@@ -1,7 +1,7 @@
 {{extend 'layout.html'}}
 
 <body class="center" onload="draw();">
-    <canvas id="teste" width="150" height="150"></canvas>
+    <canvas id="teste" width="150" height="300"></canvas>
 </body>
 
 
@@ -12,6 +12,7 @@
         if (canvas.getContext) {
             var ctx = canvas.getContext("2d");
 
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
             ctx.fillRect(0, 0, 150, 150);
         }
     }
