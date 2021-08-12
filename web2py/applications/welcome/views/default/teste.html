@@ -11,13 +11,12 @@
         // window
         var window = document.getElementById('window');
         if (window.getContext) {
-
-            // A - DIP switch S1
+            // 1A - DIP switch S1
             var window = window.getContext("2d");
-            window.fillStyle = "rgba(0, 0, 200, 0.5)";    // cor
-            window.fillRect(0, 0, 100, 100);          // desenha
-            window.clearRect(0, 0, 100, 100);           // apaga
-            window.strokeRect(1, 1, 100, 100);          // borda
+            window.fillStyle = "rgba(0, 0, 200, 0.5)";      // cor
+            window.fillRect(0, 0, 50, 25);                  // desenha
+            window.clearRect(0, 0, 50, 25);                 // apaga
+            window.strokeRect(1, 1, 50, 25);                // borda
         }
     }
 </script>

@@ -806,3 +806,17 @@
 127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000000
 127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000998
 127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 09:36:52, GET, /welcome/default/teste, HTTP/1.1, 200, 0.007978
+127.0.0.1, 2021-08-12 09:36:52, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 09:37:04, GET, /welcome/default/teste, HTTP/1.1, 200, 0.008007
+127.0.0.1, 2021-08-12 09:37:04, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 09:37:21, GET, /welcome/default/teste, HTTP/1.1, 200, 0.007009
+127.0.0.1, 2021-08-12 09:37:21, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 09:38:45, GET, /welcome/default/teste, HTTP/1.1, 200, 0.006980
+127.0.0.1, 2021-08-12 09:38:45, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 09:38:54, GET, /welcome/default/teste, HTTP/1.1, 200, 0.009973
+127.0.0.1, 2021-08-12 09:38:54, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 09:39:11, GET, /welcome/default/teste, HTTP/1.1, 200, 0.008007
+127.0.0.1, 2021-08-12 09:39:11, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 09:39:42, GET, /welcome/default/teste, HTTP/1.1, 200, 0.007979
+127.0.0.1, 2021-08-12 09:39:42, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
