@@ -749,3 +749,18 @@
 127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/bootstrap.bundle.min.js, HTTP/1.1, 304, 0.000997
 127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/js/web2py-bootstrap4.js, HTTP/1.1, 304, 0.000000
 127.0.0.1, 2021-08-11 14:23:16, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000623
+127.0.0.1, 2021-08-11 14:24:36, GET, /welcome, HTTP/1.1, 200, 0.007964
+127.0.0.1, 2021-08-11 14:24:36, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 07:47:36, GET, /, HTTP/1.1, 303, 0.001993
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/default/index, HTTP/1.1, 200, 0.284030
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/css/calendar.css, HTTP/1.1, 200, 0.004986
+.006982
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/css/bootstrap.min.css, HTTP/1.1, 200, 0.007979
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/modernizr-2.8.3.min.js, HTTP/1.1, 200, 0.014962
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/web2py-bootstrap4.js, HTTP/1.1, 200, 0.008975
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/web2py.js, HTTP/1.1, 200, 0.018949
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/calendar.js, HTTP/1.1, 200, 0.017950
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/bootstrap.bundle.min.js, HTTP/1.1, 200, 0.025930
+127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/jquery.js, HTTP/1.1, 200, 0.035905
+127.0.0.1, 2021-08-12 07:58:17, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000999
+127.0.0.1, 2021-08-12 07:58:17, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.019946
