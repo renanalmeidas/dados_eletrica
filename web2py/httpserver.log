@@ -794,3 +794,15 @@
 127.0.0.1, 2021-08-12 08:50:29, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000997
 127.0.0.1, 2021-08-12 08:50:29, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000984
 127.0.0.1, 2021-08-12 08:50:29, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000996
+127.0.0.1, 2021-08-12 08:52:41, GET, /welcome/default/index, HTTP/1.1, 200, 0.010957
+127.0.0.1, 2021-08-12 08:52:41, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2021-08-12 08:52:41, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000996
+127.0.0.1, 2021-08-12 08:52:41, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 08:54:11, GET, /welcome/default/index, HTTP/1.1, 200, 0.007979
+127.0.0.1, 2021-08-12 08:54:11, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000997
+127.0.0.1, 2021-08-12 08:54:11, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 08:54:11, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000996
+127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/default/index, HTTP/1.1, 200, 0.010972
+127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2021-08-12 08:54:44, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
