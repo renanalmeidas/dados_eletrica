@@ -1,0 +1,30 @@
+{{extend 'layout.html'}}
+
+<body class="center" onload="draw();">
+    <canvas id="window" width="1800" height="800"></canvas>
+</body>
+
+
+
+<script>
+    function draw() {
+        // window
+        var window = document.getElementById('window');
+        if (window.getContext) {
+            // 1A - DIP switch S1
+            var window = window.getContext("2d");
+            window.fillStyle = "rgba(0, 0, 200, 0.5)";      // cor
+            window.fillRect(0, 0, 50, 25);                  // desenha
+            window.clearRect(0, 0, 50, 25);                 // apaga
+            window.strokeRect(1, 1, 50, 25);                // borda
+        }
+    }
+</script>
+
+
+
+<style>
+    /*
+    canvas { border: 1px dotted red; }
+    */
+</style>

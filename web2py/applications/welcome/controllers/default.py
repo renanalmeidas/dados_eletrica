@@ -4,12 +4,16 @@
 # this file is released under public domain and you can use without limitations
 # -------------------------------------------------------------------------
 
-# ---- example index page ----
+# ---- Index page ----
 def index():
     return dict()
 
-'''
+def teste():
+    return dict()
 
+
+
+'''
 # ---- API (example) -----
 @auth.requires_login()
 def api_get_user_email():
