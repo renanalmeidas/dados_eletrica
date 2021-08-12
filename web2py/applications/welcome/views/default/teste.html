@@ -1,36 +1,42 @@
-{{extend 'layout.html'}}
+<html>
+<head>
+    <script type="application/javascript">
+        function draw() {
+            var canvas = document.getElementById("canvas");
+            if (canvas.getContext) {
+                var ctx = canvas.getContext("2d");
 
-<body class="center" onload="draw();">
-    <canvas id="window" width="1800" height="800"></canvas>
-</body>
+                let n = false;
+                setInterval(function () {
+                    if (n) {
+                        ctx.clearRect(0, 0, 600, 600)
+                        ctx.fillStyle = "rgb(200,0,0)";
+                        ctx.fillRect(10, 10, 55, 50);
+                        ctx.font = '48px serif';
+                       // ctx.clearRect(10, 100, 600, 600);
+                        ctx.fillText(new Date().toLocaleString(), 10, 100);
+                        n = false;
+                    } else {
+                        ctx.clearRect(0, 0, 600, 600)
+                        ctx.fillStyle = "rgb(0,2000,0)";
+                        ctx.fillRect(10, 10, 55, 50);
+                        ctx.font = '48px serif';
+                       // ctx.clearRect(10, 100, 600, 600);
+                        ctx.fillText(new Date().toLocaleString(), 10, 100);
+                        n = true
+                    }
+                    console.log(n);
 
 
+                    //   ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+                    //   ctx.fillRect(30, 30, 55, 50);
+                }, 2000);
 
-<script>
-    function draw() {
-        // window
-        var window = document.getElementById('window');
-        if (window.getContext) {
-            // 1A - DIP switch S1
-            var window = window.getContext("2d");
-            window.fillStyle = "rgba(0, 0, 200, 0.5)";      // cor
-            window.fillRect(0, 0, 50, 25);                  // desenha
-            window.clearRect(0, 0, 50, 25);                 // apaga
-            window.strokeRect(1, 1, 50, 25);                // borda
-
-            var window2 = window2.getContext("2d");
-            window2.fillStyle = "rgba(255, 0, 200, 0.5)";      // cor
-            window2.fillRect(100, 100, 50, 25);                  // desenha
-            window2.clearRect(100, 100, 50, 25);                 // apaga
-            window2.strokeRect(1, 1, 50, 25);                // borda
+            }
         }
-    }
-</script>
-
-
-
-<style>
-    /*
-    canvas { border: 1px dotted red; }
-    */
-</style>
+    </script>
+</head>
+<body onload="draw();">
+<canvas id="canvas" width="600" height="600"></canvas>
+</body>
+</html>
