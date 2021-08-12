@@ -1295,3 +1295,7 @@
 127.0.0.1, 2021-08-12 13:31:06, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
 127.0.0.1, 2021-08-12 13:31:46, GET, /welcome/default/base, HTTP/1.1, 200, 0.006980
 127.0.0.1, 2021-08-12 13:31:46, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 13:33:35, GET, /welcome/default/base, HTTP/1.1, 200, 0.007978
+127.0.0.1, 2021-08-12 13:33:35, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-12 13:33:36, GET, /welcome/default/base, HTTP/1.1, 200, 0.007004
+127.0.0.1, 2021-08-12 13:33:36, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
