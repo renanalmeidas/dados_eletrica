@@ -764,3 +764,5 @@
 127.0.0.1, 2021-08-12 07:47:36, GET, /welcome/static/js/jquery.js, HTTP/1.1, 200, 0.035905
 127.0.0.1, 2021-08-12 07:58:17, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000999
 127.0.0.1, 2021-08-12 07:58:17, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.019946
+127.0.0.1, 2021-08-12 08:36:06, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.000998
+127.0.0.1, 2021-08-12 08:36:06, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.000997
