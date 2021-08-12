@@ -1,0 +1,119 @@
+{{extend 'layout.html'}}
+
+<body class="center" onload="draw();">
+    <canvas id="window" width="1800" height="800"></canvas>
+</body>
+
+
+
+
+
+<script type="application/javascript">
+    function draw() {
+        let window = document.getElementById('window');
+        if (window.getContext) {
+            ctx = window.getContext('2d');
+
+            // 1A
+            ctx.clearRect(0, 0, 1800, 800);
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 0, 50, 25);
+            ctx.strokeRect(1, 1, 50, 25);
+            // 1B
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 25, 50, 25);
+            ctx.strokeRect(1, 26, 50, 25);
+            // 1C
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 51, 50, 25);
+            ctx.strokeRect(1, 51, 50, 25);
+            // 1D
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 76, 50, 25);
+            ctx.strokeRect(1, 76, 50, 25);
+            // 1E
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 101, 50, 25);
+            ctx.strokeRect(1, 101, 50, 25);
+            // 1F
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(0, 126, 50, 25);
+            ctx.strokeRect(1, 126, 50, 25);
+
+
+            // 2A
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 171, 50, 25);
+            ctx.strokeRect(1, 171, 50, 25);
+            // 2B
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 196, 50, 25);
+            ctx.strokeRect(1, 196, 50, 25);
+            // 2C
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 221, 50, 25);
+            ctx.strokeRect(1, 221, 50, 25);
+            // 2D
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 246, 50, 25);
+            ctx.strokeRect(1, 246, 50, 25);
+            // 2E
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 271, 50, 25);
+            ctx.strokeRect(1, 271, 50, 25);
+            // 2F
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 296, 50, 25);
+            ctx.strokeRect(1, 296, 50, 25);
+            // 2G
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 321, 50, 25);
+            ctx.strokeRect(1, 321, 50, 25);
+            // 2H
+            ctx.fillStyle = "rgba(0, 0, 200, 0.7)";
+            ctx.fillRect(0, 346, 50, 25);
+            ctx.strokeRect(1, 346, 50, 25);
+
+
+            // 3A
+            ctx.clearRect(420, 0, 1800, 800);
+            ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+            ctx.fillRect(420, 0, 50, 25);
+            ctx.strokeRect(421, 1, 50, 25);
+            // 3B
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 25, 50, 25);
+            ctx.strokeRect(421, 26, 50, 25);
+            // 3C
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 51, 50, 25);
+            ctx.strokeRect(421, 51, 50, 25);
+            // 3D
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 76, 50, 25);
+            ctx.strokeRect(421, 76, 50, 25);
+            // 3E
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 101, 50, 25);
+            ctx.strokeRect(421, 101, 50, 25);
+            // 3F
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 126, 50, 25);
+            ctx.strokeRect(421, 126, 50, 25);
+            // 3G
+            ctx.fillStyle = "rgba(120, 0, 200, 0.5)";
+            ctx.fillRect(420, 126, 50, 25);
+            ctx.strokeRect(421, 126, 50, 25);
+        }
+    }
+</script>
+
+
+
+
+
+<style>
+    /*
+    #window { border: 1px solid red }
+    */
+</style>

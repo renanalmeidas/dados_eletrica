@@ -11,6 +11,9 @@ def index():
 def teste():
     return dict()
 
+def base():
+    return dict()
+
 
 
 '''
