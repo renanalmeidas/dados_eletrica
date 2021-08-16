@@ -3424,6 +3424,8 @@
 127.0.0.1, 2021-08-16 13:17:23, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000998
 127.0.0.1, 2021-08-16 13:19:21, GET, /welcome/static/css/bootstrap.min.css.map, HTTP/1.1, 200, 0.005983
 127.0.0.1, 2021-08-16 13:19:21, GET, /welcome/static/js/bootstrap.bundle.min.js.map, HTTP/1.1, 200, 0.021942
+127.0.0.1, 2021-08-16 13:22:29, GET, /welcome/default/base, HTTP/1.1, 200, 0.009002
+127.0.0.1, 2021-08-16 13:22:29, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
 127.0.0.1, 2021-08-16 13:40:13, GET, /welcome/default/base, HTTP/1.1, 200, 0.009970
 127.0.0.1, 2021-08-16 13:40:13, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000997
 127.0.0.1, 2021-08-16 13:40:35, GET, /welcome/default/base, HTTP/1.1, 200, 0.013962
