@@ -1,7 +1,7 @@
 {{extend 'layout.html'}}
 
 <body class="center" onload="draw()">
-    <canvas id="window1" width="75" height="1000"></canvas>
+    <canvas id="window1" width="400" height="1000"></canvas>
     <canvas id="window2" width="75" height="1000"></canvas>
     <canvas id="window3" width="75" height="1000"></canvas>
     <canvas id="window4" width="75" height="1000"></canvas>
@@ -46,7 +46,6 @@
             ctx.fillStyle = "rgba(1,3,14,0.5)";
             ctx.fillRect(10, 126, 50, 25);
             ctx.strokeRect(10, 126, 50, 25);
-
 
             // 2A
             ctx.clearRect(9, 169, 52, 27);
@@ -229,6 +228,37 @@
             circle.arc(50, 960, 13, 0, 2 * Math.PI);
             ctx.fillStyle = "rgb(255,0,0)";
             ctx.fill(circle);
+
+            // FORMATAÇÃO TXT
+            ctx.fillStyle = "rgb(0,0,0)";   // COR
+            ctx.font = '18px sans-serif';   // FONTE
+
+            // TEXTO 1
+            ctx.fillText('74', 25, 20);     // 1A
+            ctx.fillText('73.2', 18, 70);   // 1C
+            ctx.fillText('73.1', 18, 95);   // 1D
+            ctx.fillText('72', 25 , 145);   // 1F
+
+            // TEXTO 2
+            ctx.fillText('5.3', 23, 190);   // 2A
+            ctx.fillText('5.2', 23, 215);   // 2B
+            ctx.fillText('5.1', 23, 240);   // 2C
+            ctx.fillText('63', 25 , 265);   // 2D
+            ctx.fillText('9', 30 , 290);    // 2E
+            ctx.fillText('9', 30 , 315);    // 2F
+            ctx.fillText('64', 25 , 340);   // 2G
+            ctx.fillText('19', 25 , 365);   // 2H
+
+            // TEXTO 3
+            ctx.fillText('7', 30, 190);    // 3A
+            ctx.fillText('45', 25, 215);   // 3B
+            ctx.fillText('44', 25, 240);   // 3C
+            ctx.fillText('10', 25 , 265);  // 3D
+            ctx.fillText('15', 25 , 290);  // 3E
+            ctx.fillText('15', 25 , 315);  // 3F
+            ctx.fillText('R', 30 , 340);   // 3G
+
+
 
         }
         if (window2.getContext) {
