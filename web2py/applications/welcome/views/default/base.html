@@ -1,10 +1,10 @@
 {{extend 'layout.html'}}
 <body onload="draw()">
-    <canvas id="window1" width="500" height="975"></canvas>
-    <canvas id="window2" width="75" height="975"></canvas>
-    <canvas id="window3" width="75" height="975"></canvas>
-    <canvas id="window4" width="75" height="975"></canvas>
-    <canvas id="window5" width="75" height="975"></canvas>
+    <canvas id="window1" width="108" height="975"></canvas>
+    <canvas id="window2" width="108" height="975"></canvas>
+    <canvas id="window3" width="108" height="975"></canvas>
+    <canvas id="window4" width="108" height="975"></canvas>
+    <canvas id="window5" width="108" height="975"></canvas>
 </body>
 
 
@@ -18,18 +18,26 @@
                 ctx = window1.getContext('2d');
 
                         // (x, y, width, height)
+                        // LINHA PADRÃO
                         ctx. strokeRect(60, 12.5, 25, 1);
                         ctx. strokeRect(85, 12.5, 1, 38.5);
 
                         ctx. strokeRect(60, 139, 25, 1);
                         ctx. strokeRect(85, 101.5, 1, 38.5);
 
+                        // RETA
+                        if (n) {
+                            ctx.clearRect(84, 52.2, 19, 48.5);
+                            ctx.strokeRect(85, 52.2, 1, 48.5);
+                        }
+                        // DIAGONAL
+                        else {
+                            ctx.clearRect(84, 52.2, 19, 48.5);
+                            ctx.moveTo(84.5, 102);
+                            ctx.lineTo(100, 55);
+                            ctx.stroke();
+                        }
 
-                        /* DIAGONAL
-                        ctx.moveTo(10, 10);
-                        ctx.lineTo(100,50);
-                        ctx.stroke();
-                         */
 
                 // 1A
                 if (n) {
@@ -548,6 +556,28 @@
             if (window2.getContext) {
                             ctx = window2.getContext('2d');
 
+                                    // (x, y, width, height)
+                                    // LINHA PADRÃO
+                                    ctx. strokeRect(60, 12.5, 25, 1);
+                                    ctx. strokeRect(85, 12.5, 1, 38.5);
+
+                                    ctx. strokeRect(60, 139, 25, 1);
+                                    ctx. strokeRect(85, 101.5, 1, 38.5);
+
+                                    // RETA
+                                    if (n) {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.strokeRect(85, 52.2, 1, 48.5);
+                                    }
+                                    // DIAGONAL
+                                    else {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.moveTo(84.5, 102);
+                                        ctx.lineTo(100, 55);
+                                        ctx.stroke();
+                                    }
+
+
                             // 1A
                             if (n) {
                                 ctx.clearRect(9, 0, 52, 27);
@@ -1064,6 +1094,28 @@
                         }
             if (window3.getContext) {
                             ctx = window3.getContext('2d');
+
+                                    // (x, y, width, height)
+                                    // LINHA PADRÃO
+                                    ctx. strokeRect(60, 12.5, 25, 1);
+                                    ctx. strokeRect(85, 12.5, 1, 38.5);
+
+                                    ctx. strokeRect(60, 139, 25, 1);
+                                    ctx. strokeRect(85, 101.5, 1, 38.5);
+
+                                    // RETA
+                                    if (n) {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.strokeRect(85, 52.2, 1, 48.5);
+                                    }
+                                    // DIAGONAL
+                                    else {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.moveTo(84.5, 102);
+                                        ctx.lineTo(100, 55);
+                                        ctx.stroke();
+                                    }
+
 
                             // 1A
                             if (n) {
@@ -1582,6 +1634,28 @@
             if (window4.getContext) {
                             ctx = window4.getContext('2d');
 
+                                    // (x, y, width, height)
+                                    // LINHA PADRÃO
+                                    ctx. strokeRect(60, 12.5, 25, 1);
+                                    ctx. strokeRect(85, 12.5, 1, 38.5);
+
+                                    ctx. strokeRect(60, 139, 25, 1);
+                                    ctx. strokeRect(85, 101.5, 1, 38.5);
+
+                                    // RETA
+                                    if (n) {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.strokeRect(85, 52.2, 1, 48.5);
+                                    }
+                                    // DIAGONAL
+                                    else {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.moveTo(84.5, 102);
+                                        ctx.lineTo(100, 55);
+                                        ctx.stroke();
+                                    }
+
+
                             // 1A
                             if (n) {
                                 ctx.clearRect(9, 0, 52, 27);
@@ -2099,6 +2173,28 @@
             if (window5.getContext) {
                             ctx = window5.getContext('2d');
 
+                                    // (x, y, width, height)
+                                    // LINHA PADRÃO
+                                    ctx. strokeRect(60, 12.5, 25, 1);
+                                    ctx. strokeRect(85, 12.5, 1, 38.5);
+
+                                    ctx. strokeRect(60, 139, 25, 1);
+                                    ctx. strokeRect(85, 101.5, 1, 38.5);
+
+                                    // RETA
+                                    if (n) {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.strokeRect(85, 52.2, 1, 48.5);
+                                    }
+                                    // DIAGONAL
+                                    else {
+                                        ctx.clearRect(84, 52.2, 19, 48.5);
+                                        ctx.moveTo(84.5, 102);
+                                        ctx.lineTo(100, 55);
+                                        ctx.stroke();
+                                    }
+
+
                             // 1A
                             if (n) {
                                 ctx.clearRect(9, 0, 52, 27);
@@ -2613,6 +2709,7 @@
                             ctx.fillText('AS1', 18, 845);    // 6A
                             ctx.fillText('AS2', 18, 870);   // 6B
                         }
+
             if (n) { n=false }
             else { n=true }
         }, 2000)
