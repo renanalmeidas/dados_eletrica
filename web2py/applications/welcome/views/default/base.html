@@ -1,6 +1,6 @@
 {{extend 'layout.html'}}
 <body onload="draw()">
-    <canvas id="window1" width="75" height="975"></canvas>
+    <canvas id="window1" width="500" height="975"></canvas>
     <canvas id="window2" width="75" height="975"></canvas>
     <canvas id="window3" width="75" height="975"></canvas>
     <canvas id="window4" width="75" height="975"></canvas>
@@ -16,6 +16,20 @@
         setInterval(function () {
             if (window1.getContext) {
                 ctx = window1.getContext('2d');
+
+                        // (x, y, width, height)
+                        ctx. strokeRect(60, 12.5, 25, 1);
+                        ctx. strokeRect(85, 12.5, 1, 38.5);
+
+                        ctx. strokeRect(60, 139, 25, 1);
+                        ctx. strokeRect(85, 101.5, 1, 38.5);
+
+
+                        /* DIAGONAL
+                        ctx.moveTo(10, 10);
+                        ctx.lineTo(100,50);
+                        ctx.stroke();
+                         */
 
                 // 1A
                 if (n) {

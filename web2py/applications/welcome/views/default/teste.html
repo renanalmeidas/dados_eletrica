@@ -6,8 +6,16 @@
             if (canvas.getContext) {
                 var ctx = canvas.getContext("2d");
 
+                        ctx.fillRect(10, 75, 2, 100);
+
+                        ctx.moveTo(10, 10);
+                        ctx.lineTo(100,50);
+                        ctx.stroke();
+
+                /*
                 let n = false;
                 setInterval(function () {
+
                     if (n) {
                         ctx.fillStyle = "rgb(200,0,0)";
                         ctx.fillRect(10, 10, 55, 50);
@@ -38,7 +46,7 @@
                     //   ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
                     //   ctx.fillRect(30, 30, 55, 50);
                 }, 2000);
-
+                */
             }
         }
     </script>
