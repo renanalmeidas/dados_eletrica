@@ -51,7 +51,8 @@
                             ctx.moveTo(75, 91);
                             ctx.lineTo(86, 102);
                             ctx.stroke()
-                            //ctx.clearRect(75, 52, 18, 48.5);
+                            ctx.fillRect(75, 52, 18, 48.5);
+                            ctx.clearRect(75, 52, 18, 48.5);
                         }
                         else {
                             ctx.clearRect(75, 52, 18, 48.5);
@@ -59,6 +60,7 @@
                             ctx.lineTo(87, 75);
                             ctx.moveTo(75, 66);
                             ctx.lineTo(86, 50);
+                            ctx.stroke()
                         }
 
                         // RETA (2)
@@ -597,13 +599,6 @@
                 ctx.fillText('AS1', 18, 845);    // 6A
                 ctx.fillText('AS2', 18, 870);   // 6B
             }
-
-
-
-
-
-
-
             if (n) { n=false }
             else { n=true }
         }, 2000)

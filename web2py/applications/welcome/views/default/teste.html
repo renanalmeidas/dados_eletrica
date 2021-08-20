@@ -1,59 +1,99 @@
 <html>
 <head>
     <script type="application/javascript">
+        function retangulo(ctx, p1 , p2 ){
+
+            ctx.fillRect(p1, p2, 10, 10);
+
+        }
+
+
         function draw() {
-            var canvas = document.getElementById("canvas");
-            if (canvas.getContext) {
-                var ctx = canvas.getContext("2d");
+            let window1 = document.getElementById('window');
+            let n = false
+            setInterval(function () {
+                if (window1.getContext) {
+                    ctx = window1.getContext('2d');
 
-                        // Reta
-                        ctx.fillRect(10, 75, 2, 100);
 
-                        //Diagonal
-                        ctx.moveTo(10, 10);
-                        ctx.lineTo(100,50);
-                        ctx.stroke();
+                    for (x of [1, 10, 20]) {
+                    retangulo(ctx, x, x)
+                    }
+                    /*
+                    // Reta
+                    ctx.fillRect(10, 75, 2, 100);
 
-                /*
-                let n = false;
-                setInterval(function () {
+                    //Diagonal
+                    ctx.moveTo(10, 10);
+                    ctx.lineTo(100,50);
+                    ctx.stroke();
+                    */
 
+                    // DIAGONAL (1)
+                    ctx.clearRect(75, 52, 18, 48.5);
                     if (n) {
-                        ctx.fillStyle = "rgb(200,0,0)";
-                        ctx.fillRect(10, 10, 55, 50);
-
-                        ctx.fillStyle = "rgb(200,0,0)";
-                        ctx.fillRect(75, 10, 55, 50);
-
-                        ctx.font = '48px serif';
-                       // ctx.clearRect(10, 100, 600, 600);
-                        ctx.fillText(new Date().toLocaleString(), 10, 100);
+                        ctx.clearRect(70, 50, 20,50);
+                        ctx.moveTo(75, 65);
+                        ctx.lineTo(89, 82);
+                        ctx.stroke();
+                        ctx.moveTo(75, 91);
+                        ctx.lineTo(86, 102);
+                        ctx.stroke();
+                        //ctx.fillRect(75, 52, 18, 48.5);
+                        //ctx.clearRect(75, 52, 18, 48.5);
                         n = false;
                     } else {
-                        ctx.clearRect(10, 10, 600, 600)
-                        ctx.fillStyle = "rgb(0,2000,0)";
-                        ctx.fillRect(10, 10, 55, 50);
-
-                        ctx.fillStyle = "rgb(0,2000,0)";
-                        ctx.fillRect(75, 10, 55, 50);
-
-                        ctx.font = '48px serif';
-                       // ctx.clearRect(10, 100, 600, 600);
-                        ctx.fillText(new Date().toLocaleString(), 10, 100);
-                        n = true
+                        ctx.clearRect(70, 50, 20, 50);
+                        ctx.moveTo(75, 91);
+                        ctx.lineTo(87, 75);
+                        ctx.stroke();
+                        ctx.moveTo(75, 66);
+                        ctx.lineTo(86, 50);
+                        ctx.stroke();
+                        n= true;
                     }
-                    console.log(n);
+
+                    /*
+                    let n = false;
+                    setInterval(function () {
+
+                        if (n) {
+                            ctx.fillStyle = "rgb(200,0,0)";
+                            ctx.fillRect(10, 10, 55, 50);
+
+                            ctx.fillStyle = "rgb(200,0,0)";
+                            ctx.fillRect(75, 10, 55, 50);
+
+                            ctx.font = '48px serif';
+                           // ctx.clearRect(10, 100, 600, 600);
+                            ctx.fillText(new Date().toLocaleString(), 10, 100);
+                            n = false;
+                        } else {
+                            ctx.clearRect(10, 10, 600, 600)
+                            ctx.fillStyle = "rgb(0,2000,0)";
+                            ctx.fillRect(10, 10, 55, 50);
+
+                            ctx.fillStyle = "rgb(0,2000,0)";
+                            ctx.fillRect(75, 10, 55, 50);
+
+                            ctx.font = '48px serif';
+                           // ctx.clearRect(10, 100, 600, 600);
+                            ctx.fillText(new Date().toLocaleString(), 10, 100);
+                            n = true
+                        }
+                        console.log(n);
 
 
-                    //   ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-                    //   ctx.fillRect(30, 30, 55, 50);
-                }, 2000);
-                */
-            }
+                        //   ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+                        //   ctx.fillRect(30, 30, 55, 50);
+                    }, 2000);
+                    */
+                }
+            }, 2000);
         }
     </script>
 </head>
 <body onload="draw();">
-<canvas id="canvas" width="600" height="600"></canvas>
+<canvas id="window" width="600" height="600"></canvas>
 </body>
 </html>
