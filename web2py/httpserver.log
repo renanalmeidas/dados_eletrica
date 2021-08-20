@@ -5911,3 +5911,10 @@
 127.0.0.1, 2021-08-20 12:17:23, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
 127.0.0.1, 2021-08-20 12:18:34, GET, /welcome/default/base, HTTP/1.1, 200, 0.008954
 127.0.0.1, 2021-08-20 12:18:34, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-20 12:19:42, GET, /welcome/default/base, HTTP/1.1, 200, 0.008976
+127.0.0.1, 2021-08-20 12:19:43, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-20 12:20:07, GET, /welcome/default/, HTTP/1.1, 200, 0.009972
+127.0.0.1, 2021-08-20 12:20:24, GET, /welcome/default/, HTTP/1.1, 200, 0.014960
+127.0.0.1, 2021-08-20 12:20:24, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
+127.0.0.1, 2021-08-20 12:20:39, GET, /welcome/default/, HTTP/1.1, 200, 0.008976
+127.0.0.1, 2021-08-20 12:20:39, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.000000
