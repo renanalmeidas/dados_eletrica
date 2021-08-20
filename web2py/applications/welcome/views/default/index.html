@@ -21,9 +21,12 @@
                         // LINHA PADRÃO (1)
                         ctx. strokeRect(60, 12.5, 25, 1);
                         ctx. strokeRect(85, 12.5, 1, 38.5);
+                        ctx. strokeRect(50, 65, 25, 1);
+
 
                         ctx. strokeRect(60, 139, 25, 1);
                         ctx. strokeRect(85, 101.5, 1, 38.5);
+                        ctx. strokeRect(50, 90, 25, 1);
 
                         // LINHA PADRÃO (2) Meio
                         ctx. strokeRect(50, 210, 25, 1);
@@ -38,19 +41,25 @@
                         ctx. strokeRect(60, 672.5, 27, 1);
                         ctx. strokeRect(86, 672.5, 1, 50);
 
-
-
-                        // RETA (1)
-                        if (n) {
-                            ctx.clearRect(84, 52.2, 19, 48.5);
-                            ctx.strokeRect(85, 52.2, 1, 48.5);
-                        }
                         // DIAGONAL (1)
+                        ctx.clearRect(75, 52, 18, 48.5);
+                        if (n) {
+                            ctx.beginPath();
+                            ctx.clearRect(75, 52, 18, 48.5);
+                            ctx.moveTo(75, 65);
+                            ctx.lineTo(89, 82);
+                            ctx.moveTo(75, 91);
+                            ctx.lineTo(86, 102);
+                            ctx.stroke()
+                        }
                         else {
-                            ctx.clearRect(84, 52.2, 19, 48.5);
-                            ctx.moveTo(84.5, 102);
-                            ctx.lineTo(100, 55);
-                            ctx.stroke();
+                            ctx.beginPath();
+                            ctx.clearRect(75, 52, 18, 48.5);
+                            ctx.moveTo(75, 91);
+                            ctx.lineTo(87, 75);
+                            ctx.moveTo(75, 66);
+                            ctx.lineTo(86, 50);
+                            ctx.stroke()
                         }
 
                         // RETA (2)
@@ -596,9 +605,12 @@
                                     // LINHA PADRÃO (1)
                                     ctx. strokeRect(60, 12.5, 25, 1);
                                     ctx. strokeRect(85, 12.5, 1, 38.5);
+                                    ctx. strokeRect(50, 65, 25, 1);
+
 
                                     ctx. strokeRect(60, 139, 25, 1);
                                     ctx. strokeRect(85, 101.5, 1, 38.5);
+                                    ctx. strokeRect(50, 90, 25, 1);
 
                                     // LINHA PADRÃO (2) Meio
                                     ctx. strokeRect(50, 210, 25, 1);
@@ -613,19 +625,25 @@
                                     ctx. strokeRect(60, 672.5, 27, 1);
                                     ctx. strokeRect(86, 672.5, 1, 50);
 
-
-
-                                    // RETA (1)
-                                    if (n) {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.strokeRect(85, 52.2, 1, 48.5);
-                                    }
                                     // DIAGONAL (1)
+                                    ctx.clearRect(75, 52, 18, 48.5);
+                                    if (n) {
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 65);
+                                        ctx.lineTo(89, 82);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(86, 102);
+                                        ctx.stroke()
+                                    }
                                     else {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.moveTo(84.5, 102);
-                                        ctx.lineTo(100, 55);
-                                        ctx.stroke();
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(87, 75);
+                                        ctx.moveTo(75, 66);
+                                        ctx.lineTo(86, 50);
+                                        ctx.stroke()
                                     }
 
                                     // RETA (2)
@@ -1171,9 +1189,12 @@
                                     // LINHA PADRÃO (1)
                                     ctx. strokeRect(60, 12.5, 25, 1);
                                     ctx. strokeRect(85, 12.5, 1, 38.5);
+                                    ctx. strokeRect(50, 65, 25, 1);
+
 
                                     ctx. strokeRect(60, 139, 25, 1);
                                     ctx. strokeRect(85, 101.5, 1, 38.5);
+                                    ctx. strokeRect(50, 90, 25, 1);
 
                                     // LINHA PADRÃO (2) Meio
                                     ctx. strokeRect(50, 210, 25, 1);
@@ -1188,19 +1209,25 @@
                                     ctx. strokeRect(60, 672.5, 27, 1);
                                     ctx. strokeRect(86, 672.5, 1, 50);
 
-
-
-                                    // RETA (1)
-                                    if (n) {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.strokeRect(85, 52.2, 1, 48.5);
-                                    }
                                     // DIAGONAL (1)
+                                    ctx.clearRect(75, 52, 18, 48.5);
+                                    if (n) {
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 65);
+                                        ctx.lineTo(89, 82);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(86, 102);
+                                        ctx.stroke()
+                                    }
                                     else {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.moveTo(84.5, 102);
-                                        ctx.lineTo(100, 55);
-                                        ctx.stroke();
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(87, 75);
+                                        ctx.moveTo(75, 66);
+                                        ctx.lineTo(86, 50);
+                                        ctx.stroke()
                                     }
 
                                     // RETA (2)
@@ -1746,9 +1773,12 @@
                                     // LINHA PADRÃO (1)
                                     ctx. strokeRect(60, 12.5, 25, 1);
                                     ctx. strokeRect(85, 12.5, 1, 38.5);
+                                    ctx. strokeRect(50, 65, 25, 1);
+
 
                                     ctx. strokeRect(60, 139, 25, 1);
                                     ctx. strokeRect(85, 101.5, 1, 38.5);
+                                    ctx. strokeRect(50, 90, 25, 1);
 
                                     // LINHA PADRÃO (2) Meio
                                     ctx. strokeRect(50, 210, 25, 1);
@@ -1763,19 +1793,25 @@
                                     ctx. strokeRect(60, 672.5, 27, 1);
                                     ctx. strokeRect(86, 672.5, 1, 50);
 
-
-
-                                    // RETA (1)
-                                    if (n) {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.strokeRect(85, 52.2, 1, 48.5);
-                                    }
                                     // DIAGONAL (1)
+                                    ctx.clearRect(75, 52, 18, 48.5);
+                                    if (n) {
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 65);
+                                        ctx.lineTo(89, 82);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(86, 102);
+                                        ctx.stroke()
+                                    }
                                     else {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.moveTo(84.5, 102);
-                                        ctx.lineTo(100, 55);
-                                        ctx.stroke();
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(87, 75);
+                                        ctx.moveTo(75, 66);
+                                        ctx.lineTo(86, 50);
+                                        ctx.stroke()
                                     }
 
                                     // RETA (2)
@@ -2321,9 +2357,12 @@
                                     // LINHA PADRÃO (1)
                                     ctx. strokeRect(60, 12.5, 25, 1);
                                     ctx. strokeRect(85, 12.5, 1, 38.5);
+                                    ctx. strokeRect(50, 65, 25, 1);
+
 
                                     ctx. strokeRect(60, 139, 25, 1);
                                     ctx. strokeRect(85, 101.5, 1, 38.5);
+                                    ctx. strokeRect(50, 90, 25, 1);
 
                                     // LINHA PADRÃO (2) Meio
                                     ctx. strokeRect(50, 210, 25, 1);
@@ -2338,19 +2377,25 @@
                                     ctx. strokeRect(60, 672.5, 27, 1);
                                     ctx. strokeRect(86, 672.5, 1, 50);
 
-
-
-                                    // RETA (1)
-                                    if (n) {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.strokeRect(85, 52.2, 1, 48.5);
-                                    }
                                     // DIAGONAL (1)
+                                    ctx.clearRect(75, 52, 18, 48.5);
+                                    if (n) {
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 65);
+                                        ctx.lineTo(89, 82);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(86, 102);
+                                        ctx.stroke()
+                                    }
                                     else {
-                                        ctx.clearRect(84, 52.2, 19, 48.5);
-                                        ctx.moveTo(84.5, 102);
-                                        ctx.lineTo(100, 55);
-                                        ctx.stroke();
+                                        ctx.beginPath();
+                                        ctx.clearRect(75, 52, 18, 48.5);
+                                        ctx.moveTo(75, 91);
+                                        ctx.lineTo(87, 75);
+                                        ctx.moveTo(75, 66);
+                                        ctx.lineTo(86, 50);
+                                        ctx.stroke()
                                     }
 
                                     // RETA (2)
@@ -2889,12 +2934,6 @@
                             ctx.fillText('AS1', 18, 845);    // 6A
                             ctx.fillText('AS2', 18, 870);   // 6B
                         }
-
-
-
-
-
-
             if (n) { n=false }
             else { n=true }
         }, 2000)
