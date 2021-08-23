@@ -5935,3 +5935,6 @@
 127.0.0.1, 2021-08-23 08:15:33, GET, /welcome/static/js/bootstrap.bundle.min.js, HTTP/1.1, 304, 0.022940
 127.0.0.1, 2021-08-23 08:15:39, GET, /welcome/default/base, HTTP/1.1, 200, 0.008976
 127.0.0.1, 2021-08-23 08:15:41, GET, /welcome/default/base, HTTP/1.1, 200, 0.008928
+127.0.0.1, 2021-08-23 08:43:20, GET, /welcome/default/index, HTTP/1.1, 200, 0.009973
+127.0.0.1, 2021-08-23 08:44:02, GET, /welcome/default/index, HTTP/1.1, 200, 0.043750
+127.0.0.1, 2021-08-23 08:44:02, GET, /welcome/static/images/favicon.ico, HTTP/1.1, 200, 0.003990
