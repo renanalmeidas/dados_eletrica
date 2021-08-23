@@ -2818,6 +2818,7 @@
                                         ctx.stroke()
                                     }
 
+
                             // 1A
                             if (n) {
                                 ctx.clearRect(9, 0, 52, 27);
@@ -2896,6 +2897,7 @@
                                 ctx.fillRect(10, 126, 50, 25);
                                 ctx.strokeRect(10, 126, 50, 25);
                             }
+
 
                             // 2A
                             if (n) {
@@ -3002,6 +3004,7 @@
                                 ctx.strokeRect(10, 346, 50, 25);
                             }
 
+
                             // 3A
                             if (n) {
                                 ctx.clearRect(9, 390, 52, 27);
@@ -3093,6 +3096,7 @@
                                 ctx.fillRect(10, 541, 50, 25);
                                 ctx.strokeRect(10, 541, 50, 25);
                             }
+
 
                             // 4A
                             if (n) {
@@ -3201,6 +3205,7 @@
                                 ctx.strokeRect(10, 781, 50, 25);
                             }
 
+
                             // 6A
                             if (n) {
                                 ctx.clearRect(9, 825, 52, 27);
@@ -3236,7 +3241,6 @@
                             circle.arc(21, 900, 13, 0, 2 * Math.PI);
                             ctx.fillStyle = "rgba(255,0,0,0.15)";
                             ctx.fill(circle);
-
                             // ------------  LED2  ------------
                             ctx.clearRect(36, 887, 27, 27);
                             var circle = new Path2D();
@@ -3244,7 +3248,6 @@
                             circle.arc(50, 900, 13, 0, 2 * Math.PI);
                             ctx.fillStyle = "rgba(255,0,0,0.15)";
                             ctx.fill(circle);
-
                             // ------------  LED3  ------------
                             if (n) {
                                 ctx.clearRect(7, 917, 27, 27);
@@ -3284,7 +3287,6 @@
                             circle.arc(21, 960, 13, 0, 2 * Math.PI);
                             ctx.fillStyle = "rgba(255,0,0,0.15)";
                             ctx.fill(circle);
-
                             // ------------  LED6  ------------
                             ctx.clearRect(36, 946, 27, 27);
                             var circle = new Path2D();
@@ -3332,12 +3334,15 @@
                             ctx.fillText('AS1', 18, 845);    // 6A
                             ctx.fillText('AS2', 18, 870);   // 6B
                         }
+
             if (n) { n=false }
             else { n=true }
         }, 2000)
-
     }
 </script>
+
+
+
 <style>
     canvas {
         border: 5px solid grey;
